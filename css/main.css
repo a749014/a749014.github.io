@@ -2713,3 +2713,17 @@ header.header {
     padding: 10px 12px;
   }
 }
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.main-inner {
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.8;
+  z-index: 10;
+}
